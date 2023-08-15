@@ -88,17 +88,6 @@ const Navbar = ({ onSearch, onTagFilter }) => {
         >
           Official Store
         </button>
-        <button
-          onClick={() => handleTagFilter("#tag4")}
-          className={`${
-            activeTag === "#tag4"
-              ? "bg-green-300 bg-opacity-25 text-green-500 font-semibold py-2 px-4 border border-green-500 rounded-lg"
-              : "bg-transparent border border-white hover:bg-green-300 hover:bg-opacity-25 rounded-lg py-2 px-4"
-          } hover:bg-green-300 hover:bg-opacity-25 text-white font-semibold py-1 px-3 rounded mt-2`}
-        >
-          #tag4
-        </button>
-        {/* Add more buttons for other tags */}
       </div>
     </nav>
   );
